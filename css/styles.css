@@ -79,7 +79,16 @@
   --bs-highlight-bg: #fff3cd;
 }
 
-
+.custom-img {
+  width: 200px;
+  height: 251px;
+  object-fit: cover; /* Isso garante que a imagem preencha o container sem distorção */
+}
+.custom-img-apoio {
+  width: 300px;
+  height: 300px;
+  object-fit: cover; /* Isso garante que a imagem preencha o container sem distorção */
+}
 *,
 *::before,
 *::after {
@@ -4274,7 +4283,7 @@ textarea.form-control-lg {
 .card-img,
 .card-img-top,
 .card-img-bottom {
-  width: 100%;
+  width: 50%;
 }
 
 .card-img,

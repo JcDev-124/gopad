@@ -4187,6 +4187,14 @@ textarea.form-control-lg {
   border: var(--bs-card-border-width) solid var(--bs-card-border-color);
   border-radius: var(--bs-card-border-radius);
 }
+
+.card {
+  display: flex;
+  justify-content: center; /* Centers image horizontally */
+  align-items: center;     /* Centers image vertically */
+}
+
+
 .card > hr {
   margin-right: 0;
   margin-left: 0;

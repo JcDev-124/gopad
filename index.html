@@ -12,6 +12,7 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+
     </head>
     <body class="d-flex flex-column h-100">
         <main class="flex-shrink-0">
@@ -27,7 +28,6 @@
                             <li class="nav-item"><a class="nav-link" href="projetos.html">Projetos</a></li>
                             <li class="nav-item"><a class="nav-link" href="publicacoes.html">Publicações</a></li>
                             <li class="nav-item"><a class="nav-link" href="noticias.html">Noticias</a></li>
-
                         </ul>
                     </div>
                 </div>
@@ -126,58 +126,55 @@
             </div>
             -->
             <!-- Blog preview section-->
-            <section class="py-5">
-                <div class="container px-5 my-5">
-                    <div class="row gx-5 justify-content-center">
-                        <div class="col-lg-8 col-xl-6">
-                            <div class="text-center">
-                                <h2 class="fw-bolder">Apoio <br> <br></h2>
-                                
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row gx-5">
-                        <div class="col-lg-4 mb-5">
-                            <div class="card h-100 shadow border-0">
-                                <img class="card-img-top " src="./assets/ifsul.jpg" alt="..." />
-                            </div>
-                        </div>
-                        <div class="col-lg-4 mb-5">
-                            <div class="card h-100 shadow border-0">
-                                <img class="card-img-top " src="./assets/fapemig.jpg" alt="..." />
             
+            <section class="py-5">
+                <section class="py-5">
+                    <div class="container px-5 my-5">
+                        <div class="row gx-0 justify-content-center"> <!-- Removido o espaçamento horizontal entre colunas -->
+                            <div class="col-lg-8 col-xl-6">
+                                <div class="text-center">
+                                    <h2 class="fw-bolder">Apoio <br> <br></h2>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-lg-4 mb-5">
-                            <div class="card h-100 shadow border-0">
-                                <img class="card-img-top " src="./assets/cnpq.jpg" alt="..." />
-    
+                            <div class="row gx-0 justify-content-center"> <!-- Removido o espaçamento horizontal entre colunas -->
+                                <div class="col-lg-4 d-flex justify-content-center mb-2 px-1"> <!-- Ajustado o padding horizontal -->
+                                    <div class="card h-100 border-0 p-1"> <!-- Ajustado o padding interno do card -->
+                                        <img class="card-img-top" src="./assets/ifsul.jpg" alt="..." />
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 d-flex justify-content-center mb-2 px-1"> <!-- Ajustado o padding horizontal -->
+                                    <div class="card h-100 border-0 p-1"> <!-- Ajustado o padding interno do card -->
+                                        <img class="card-img-top" src="./assets/fapemig.jpg" alt="..." />
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 d-flex justify-content-center mb-2 px-1"> <!-- Ajustado o padding horizontal -->
+                                    <div class="card h-100 border-0 p-1"> <!-- Ajustado o padding interno do card -->
+                                        <img class="card-img-top" src="./assets/cnpq.jpg" alt="..." />
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <!-- Call to action-->
- 
+                </section>
+                
+            
+            
+            <!-- Footer-->
+            <footer class="py-5 bg-dark">
+                <div class="container px-5">
+                    <div class="row align-items-center justify-content-center">
+                        <div class="col-md-6 small">Copyright © Grupo de Estudos em Organização, Processamento e Análise de Dados 2024</div>
+                        <div class="col-md-6 text-md-end">
+                            <a href="#!">Privacidade</a>
+                            <span class="mx-1">·</span>
+                            <a href="#!">Termos</a>
+                        </div>
+                    </div>
                 </div>
-            </section>
+            </footer>
         </main>
-        <!-- Footer-->
-        <footer class="bg-dark py-4 mt-auto">
-            <div class="container px-5">
-                <div class="row align-items-center justify-content-between flex-column flex-sm-row">
-                    <div class="col-auto"><div class="small m-0 text-white">Copyright &copy; Your Website 2023</div></div>
-                    <div class="col-auto">
-                        <a class="link-light small" href="#!">Privacy</a>
-                        <span class="text-white mx-1">&middot;</span>
-                        <a class="link-light small" href="#!">Terms</a>
-                        <span class="text-white mx-1">&middot;</span>
-                        <a class="link-light small" href="#!">Contact</a>
-                    </div>
-                </div>
-            </div>
-        </footer>
         <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
     </body>
 </html>

@@ -10,6 +10,17 @@
  * Copyright 2011-2022 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+
+
+    /* Imagem de destaque ajustada */
+
+  .img-standard {
+      width: 100%;
+      height: auto; /* Ajusta a altura de acordo com a largura */
+      max-height: 400px; /* Limita a altura máxima da imagem */
+      object-fit: cover; /* Garante que a imagem não distorça */
+  }
+
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
